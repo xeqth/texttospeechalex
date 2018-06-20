@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/logopilt"
+        android:layout_width="445dp"
+        android:layout_height="440dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/logopilt"
+        android:fontFamily="casual"
+        android:text="Tere Tulemast, Tekst kõnesse äppi!!"
+        android:textSize="24sp" />
+
+</RelativeLayout>
